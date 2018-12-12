@@ -16,6 +16,10 @@
   padding-right: var(--header-padding);
 }
 
+.nav {
+    display: block;   
+}
+
 .content {
   margin-top: var(--header-height);
   margin-left: 30px;
