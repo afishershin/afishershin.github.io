@@ -8,7 +8,6 @@
   height: var(--header-height);
   position: fixed;
   z-index: 10;
-  overflow: hidden;
   top: 0;
   left: 0;
   background: #EEE;
@@ -16,8 +15,22 @@
   padding-right: var(--header-padding);
 }
 
-.nav {
-    display: block;   
+#title {
+    max-width: 100%;
+    width: 300px;
+    margin: 0;
+}
+
+.menu {
+    display: table;
+    float: left;
+    margin: 0;
+    width: 100px;
+    height: 10px;
+}
+
+.li {
+    float: left;
 }
 
 .content {
