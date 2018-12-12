@@ -1,12 +1,23 @@
+:root {
+    --header-height: 90px;
+    --header-padding: 30px;
+}
+
 .header {
   width: 100%;
+  height: var(--header-height);
   position: fixed;
   z-index: 10;
+  overflow: hidden;
   top: 0;
+  left: 0;
   background: #EEE;
+  padding-left: var(--header-padding);
+  padding-right: var(--header-padding);
 }
 
 .content {
+  margin-top: var(--header-height);
   margin-left: 30px;
   margin-right: 30px;
 }
