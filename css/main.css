@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:200,300,300i,400,500,600,700,700i,800,900');
+
 :root {
     --header-height: 90px;
     --main-padding: 30px;
     --footer-color: #EEEEEE;
+    --main-font: 'Barlow';
 }
 
 .header {
@@ -25,9 +28,12 @@
 }
 
 #title h1 {
-    max-width: 100%;
+  max-width: 100%;
 	width: 300px;
 	display: inline-block;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: #505050;
 }
 
 #header-menu {
@@ -45,12 +51,18 @@
 
 #header-menu ul li {
     display: inline-block;
-    padding: 0px;
+    padding: 15px 10px 0px 10px;
 }
 
 .content {
   margin-top:  var(--header-height);
   padding: 10px var(--main-padding) 10px var(--main-padding);
+}
+
+a {
+  font-family: var(--main-font);
+  font-weight: 300;
+  text-decoration: none;
 }
 
 body {
