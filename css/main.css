@@ -1,6 +1,6 @@
 :root {
     --header-height: 90px;
-    --header-padding: 30px;
+    --main-padding: 30px;
     --footer-color: #EEEEEE;
 }
 
@@ -12,8 +12,8 @@
   top: 0;
   left: 0;
   background: #EEE;
-  padding-left: var(--header-padding);
-  padding-right: var(--header-padding);
+  padding-left: var(--main-padding);
+  padding-right: var(--main-padding);
 }
 
 #title {
@@ -64,11 +64,12 @@ footer {
   background-color: var(--footer-color);
   width: 100%;
   bottom: 0;
-  padding: 10px;
+  padding: 5px var(--main-padding) 5px var(--main-padding);
 }
 
 footer ul {
   list-style: none;
+  padding: 0;
 }
 
 footer ul li {
