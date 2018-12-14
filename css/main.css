@@ -25,6 +25,7 @@
     width: 300px;
     margin: 0;
     display: inline;
+		float: left;
 }
 
 #title h1 {
@@ -38,7 +39,7 @@
 
 #header-menu {
     display: inline;
-    float: right;
+    float: left;
     vertical-align: center;
     /*margin: 0;
     width: 300px;
