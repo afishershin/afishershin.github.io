@@ -49,9 +49,8 @@
 }
 
 .content {
-  margin-top: var(--header-height);
-  margin-left: 30px;
-  margin-right: 30px;
+  margin:  var(--header-height);
+  padding: 10px var(--main-padding) 0px var(--main-padding);
 }
 
 body {
