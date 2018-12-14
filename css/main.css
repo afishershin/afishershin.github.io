@@ -62,7 +62,14 @@
 a {
   font-family: var(--main-font);
   font-weight: 300;
+  font-size: 1em;
   text-decoration: none;
+}
+
+p {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 1.2em;
 }
 
 body {
