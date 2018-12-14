@@ -1,6 +1,7 @@
 :root {
     --header-height: 90px;
     --header-padding: 30px;
+    --footer-color: #EEEEEE;
 }
 
 .header {
@@ -51,5 +52,16 @@
   margin-top: var(--header-height);
   margin-left: 30px;
   margin-right: 30px;
-  padding: 10px;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: var(--footer-color);
+  width: 100%;
+  bottom: 0;
 }
