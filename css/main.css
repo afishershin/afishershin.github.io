@@ -64,4 +64,14 @@ footer {
   background-color: var(--footer-color);
   width: 100%;
   bottom: 0;
+  padding: 10px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0px;
 }
