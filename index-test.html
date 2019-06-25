@@ -3,11 +3,11 @@
 	<head>
 		<title>Andrew Fisher-Shin</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="snippets" href="import/snippets.html">
+		<link rel="import" href="import/doc.html">
 	</head>
 	<body>
 		<script>
-		var doc = document.querySelector('link[rel="snippets"]').import;
+		var doc = document.querySelector('link[rel="import"]').import;
 		// Grab DOM from doc.html's document.
 		var text = doc.querySelector('.doc');
 		document.body.appendChild(text.cloneNode(true));
